@@ -1,11 +1,20 @@
+### 获取信息
+GET http://localhost:3001/api/userInfoFile
+Content-Type: application/json
+Authorization:Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVmYTYyMmJiNDM4MzYyM2M0ODkzOGNiMCIsImlhdCI6MTYwNDkwNzAyN30.Utb9AcBPd1OZ5RilSH55nRzfZkbELeKCNwFlsz2QGfQ
+
+{
+}
+
+###
 
 ### 登录
 POST http://localhost:3001/api/login
 Content-Type: application/json
 
 {
-  "username": "admin4",
-  "password": "admin1"
+  "username": "admin3",
+  "password": "admin"
 }
 
 ###
