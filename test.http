@@ -1,0 +1,37 @@
+
+### 登录
+POST http://localhost:3001/api/login
+Content-Type: application/json
+
+{
+  "username": "admin4",
+  "password": "admin1"
+}
+
+###
+
+
+###
+#注册
+POST http://localhost:3001/api/register
+Content-Type: application/json
+
+{
+  "username": "admin4",
+  "password": "admin"
+}
+
+
+
+###
+POST http://localhost:3001
+Content-Type: application/json
+
+
+
+### 所有用户
+GET http://localhost:3001/api/users
+Accept: application/json
+
+
+
